@@ -49,6 +49,15 @@ a {
     text-decoration: none;
 }
 
+section{
+    padding-bottom: 70px;
+}
+
+.section-header{
+    text-align: center;
+    padding: 70px 0;
+}
+
 
 /* ---------------------- header ---------------------- */
 header {
@@ -346,4 +355,9 @@ nav ul li a:hover {
     height: 400px;
     animation: fadeInUpBig 2s , shakeY 30s 2.5s infinite;
     -webkit-animation: fadeInUpBig 2s , shakeY 30s 2.5s infinite;
+}
+
+
+#info .col-md-4{
+    padding: 0 50px;
 }
