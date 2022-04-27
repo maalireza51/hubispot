@@ -361,3 +361,17 @@ nav ul li a:hover {
 #info .col-md-4{
     padding: 0 50px;
 }
+#info .shadowbox{
+    padding: 20px;
+    text-align: center;
+    border-radius: 0.8rem;
+    -webkit-border-radius: 0.8rempx;
+    -moz-border-radius: 0.8rempx;
+    -ms-border-radius: 0.8rempx;
+    -o-border-radius: 0.8rempx;
+    box-shadow: 0 .5rem 2rem rgba(0,0,0,.15)!important;
+}
+#info .shadowbox .card-title{
+    padding: 10px 0;
+    color: #2f0079;
+}
