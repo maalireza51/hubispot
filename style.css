@@ -244,12 +244,6 @@ nav ul li a:hover {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    cursor: pointer;
-    transition: 1s;
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    -ms-transition: 1s;
-    -o-transition: 1s;
     animation: shakeY 20s infinite;
     -webkit-animation: shakeY 20s infinite;
 }
@@ -358,8 +352,9 @@ nav ul li a:hover {
 }
 
 
-#info .col-md-4{
+#info .col-lg-4{
     padding: 0 50px;
+    margin-bottom: 40px;
 }
 #info .shadowbox{
     padding: 20px;
