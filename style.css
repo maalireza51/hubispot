@@ -373,5 +373,6 @@ nav ul li a:hover {
 
 /* ---------------- specs section ---------------- */
 #specs img{
-    width: 500px;
+    display: inline-block;
+    max-width: 100%;
 }
