@@ -234,7 +234,7 @@ nav ul li a:hover {
     -o-transform: translateX(50%);
     z-index: 1;
 }
-.scroll-down span{
+.scroll-down a{
     display: inline-block;
     padding: 15px 20px;
     color: white;
