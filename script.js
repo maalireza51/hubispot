@@ -24,6 +24,30 @@ $(document).ready(function(){
   });
 });
 
+// scroll mobile navbar
+$(document).ready(function(){
+  $(window).scroll(function(){
+      if ($(window).scrollTop() > 100){
+          $('.mobile-nav').addClass('scrolled');
+          $('.mobile-nav a').css('padding','18px');
+      }else{
+          $('.mobile-nav').removeClass('scrolled');
+          $('.mobile-nav a').css('padding','30px');
+      }
+  });
+});
+
 // wow js initialization
 new WOW().init();
 
+$('header .menubtn').on('click',function(){
+  $('nav').css('opacity','1');
+  $('nav').css('display','flex');  
+});
+$('header .menuclosebtn').on('click',function(){
+  $('nav').css('transition','1s');
+  $('nav').css('opacity','0');
+  let timefornav = setTimeout(() => {
+    $('nav').css('display','none');
+  }, 1000);
+});

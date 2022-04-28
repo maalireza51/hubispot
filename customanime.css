@@ -238,6 +238,54 @@
   animation-name: fadeIn;
 }
 
+@-webkit-keyframes colorwhite {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    color: white;
+  }
+
+  99% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100%{
+    color: white;
+  }
+}
+
+@keyframes colorwhite {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    color: white;
+  }
+
+  99% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    color: #989898;
+  }
+  100%{
+    color: white;
+  }
+}
+
+.colorwhite {
+  -webkit-animation-name: colorwhite;
+  animation-name: colorwhite;
+}
+
 @-webkit-keyframes pulse {
   0% {
     -webkit-transform: scale(1);
@@ -253,6 +301,7 @@
   100% {
     -webkit-transform: scale(1);
     transform: scale(1);
+    color: #989898;
   }
 }
 
