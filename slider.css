@@ -118,6 +118,7 @@
     -moz-transform: translate(50%, -50%);
     -ms-transform: translate(50%, -50%);
     -o-transform: translate(50%, -50%);
+    pointer-events: none;
 }
 
 /* slider1- text */
@@ -151,6 +152,7 @@
 }
 
 .slider-content .slider_text--1 a {
+    pointer-events: all;
     color: white;
     background: #5900ff;
     box-shadow: 1px 0 50px rgba(85, 0, 255, 0.3);
