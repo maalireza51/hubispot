@@ -194,3 +194,22 @@ nav ul li a:hover {
 #specs li{
     padding: 5px 0;
 }
+#specs .second-spec{
+    padding: 80px 60px;
+    margin-right: auto;
+    margin-left: auto;
+    /* max-width: 1140px; */
+    background-color: #f0edf6;
+}
+
+
+@media (max-width:576px) {
+    #specs .second-spec{
+        padding: 80px 10px;
+    }
+}
+@media (max-width:768px) {
+    #specs .second-spec{
+        padding: 80px 15%;
+    }
+}
