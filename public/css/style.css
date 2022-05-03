@@ -13,37 +13,37 @@
 @font-face {
     font-family: 'IranSans';
     font-weight: 200;
-    src: url('./fonts/IRANSansWeb200.woff') format('woff');
+    src: url('../fonts/IRANSansWeb200.woff') format('woff');
 }
 
 @font-face {
     font-family: 'IranSans';
     font-weight: 300;
-    src: url('./fonts/IRANSansWeb300.woff') format('woff');
+    src: url('../fonts/IRANSansWeb300.woff') format('woff');
 }
 
 @font-face {
     font-family: 'IranSans';
     font-weight: 400;
-    src: url('./fonts/IRANSansWeb400.woff') format('woff');
+    src: url('../fonts/IRANSansWeb400.woff') format('woff');
 }
 
 @font-face {
     font-family: 'IranSans';
     font-weight: 500;
-    src: url('./fonts/IRANSansWeb500.woff') format('woff');
+    src: url('../fonts/IRANSansWeb500.woff') format('woff');
 }
 
 @font-face {
     font-family: 'IranSans';
     font-weight: 600;
-    src: url('./fonts/IRANSansWeb600.woff') format('woff');
+    src: url('../fonts/IRANSansWeb600.woff') format('woff');
 }
 
 @font-face {
     font-family: 'IranSans';
     font-weight: 900;
-    src: url('./fonts/IRANSansWeb900.woff') format('woff');
+    src: url('../fonts/IRANSansWeb900.woff') format('woff');
 }
 
 /* *********** */
@@ -72,18 +72,21 @@ header {
     overflow: hidden;
     height: 100vh;
     background: rgb(92, 0, 100);
-    background: url('./img/slide1-bg.webp');
+    background: url('../img/slide1-bg.webp');
     background-size: contain;
     background-position: top;
 }
 
 nav{
-    background: -webkit-linear-gradient(left,#82009f 0%,#5d34af 100%);
-    background: linear-gradient(to right,#82009f 0%,#5d34af 100%);
     padding: 0 100px;
     top:-100%;
     animation: nav 1s ease forwards;
     -webkit-animation: nav 1s ease forwards;
+}
+
+.bg-nav{
+    background: -webkit-linear-gradient(left,#82009f 0%,#5d34af 100%);
+    background: linear-gradient(to right,#82009f 0%,#5d34af 100%);
 }
 
 /* stroke */
